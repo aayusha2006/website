@@ -1,0 +1,264 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <title>WEB</title>
+        <style>
+           .navbar{
+            position: fixed;
+            width:100vw;
+           }
+           
+           
+            
+            .navbar-brand{
+              color: lightgreen;
+              /* color: rgba(189, 71, 71, 0.432); */
+              
+            }
+            .search-bar{
+              margin-right: 50px;
+              display: flex;
+              width: 100%;
+              max-width: 400px; /* Adjust as needed */
+             }
+
+            
+            .logo{
+              height:110px;
+              width:130px;
+              
+              margin-right:50px;
+            }
+            #main-page{
+              display: flex;
+              flex-direction:row;
+              background-color:rgb(229, 229, 230);
+            }
+            
+            .main-image{
+              background-size: cover;
+            }
+            .paragraph{
+              margin-top: 50px;
+            }
+           
+            .number1{
+              color: lightgreen;
+            }
+           .btn:hover{
+            background-color: white;
+            color:green;
+           }
+           h1{
+            text-align: center;
+           }
+           h2{
+            text-align: center;
+           }
+           h4{
+            text-align: center;
+           }
+           #products{
+            display:flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+           }
+           #newAtInni{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+           }
+           iframe {
+          display: block;
+          margin: 0 auto;
+            }
+
+           #ending{
+              background-color: lightgrey;
+              display:flex;
+              justify-content: space-around;
+           }
+           #offers{
+            display: flex;
+            justify-content: space-evenly;
+           }
+           .innioffers{
+            font-size:xx-large;
+           }
+            </style>
+    </head>
+    <body>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <div class="navio">
+        <nav class="navbar  navbar-expand-lg bg-tertiary" style="background-color: white;">
+          <div class="nav-logo">
+            <img src="./logo innisfree.png" alt="..." class="logo">
+          </div>  
+          <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">INNISFREE</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#main-page">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#bestSellers">Best Sellers</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#offers">Offers</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+           
+            <div class="search-bar">
+                <div class="container-fluid">
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+                </div>
+              
+          </nav>
+          </div>
+          <br><br><br><br><br><br>
+          <div id="main-page">
+            
+              <br>
+            <div class="paragraph">
+             <h1 class="number1">NO.1 SKIN CARE AND MAKEUP BRAND IN KOREA</h1><br><br>
+              <h2> TREAT YOUR SKIN CONCERN WITH INNISFREE</h2><br>
+             <h4 class="h4Main">Get fresh-faced with us</h4>
+             <br><br>
+             <center><button type="button" class="btn btn-success">
+              SHOP NOW
+             </button></center>
+            </div>
+            
+            <div class="main-image">
+              <img src="./front-image.jpeg" height="800px" width="800px" alt="..">
+            </div>
+
+          </div>
+          
+            <br>
+            <h1 id="bestSellers">Best Sellers</h1><br>
+          
+          <div id="products">
+            <div class="suncreen">
+              <img src="./sunscreen.webp" height="200px" width="200px"alt=".."><br>
+              
+              <h5 class="sunscreenh6">
+                Daily UV Defense Sunscreen
+              </h5><br>
+              <button type="button" class="btn btn-success">$16 | ADD TO CART</button>
+          </div>
+          <div class="liptint">
+            <img src="./liptint.webp" height="200px" width="200px" alt="...">
+            <h5 class="liptinth6">
+              Dewy Tint LipBalm
+            </h5><br>
+            <button type="button" class="btn btn-success">$18 | ADD TO CART</button>
+          </div>
+          <div class="sheetmask">
+            <img src="./sheetmask.webp" alt="..." height="200px" width="200px">
+            <h5 class="mask">
+              Energy Sheet Mask
+            </h5><br>
+            <button type="button" class="btn btn-success">$2.50 | ADD TO CART</button>
+          </div>
+          <div class="cleanser">
+            <img src="./cleanser.webp" height="200px" alt="">
+            <h5 class="cleanserh6">
+              Green Tea Amino Acid Face Cleanser
+            </h5><br>
+            <button type="button" class="btn btn-success">$12 | ADD TO CART</button>
+          </div>
+
+          </div> <BR></BR>
+          <h1 id="newInni">New at innisfree</h1><br>
+          <div id="newAtInni">
+            <div id="newProducts">
+              <!-- <div class="aloeGel"> -->
+                <img src="./aloe gel.webp" height="300px" width="300px"alt=".."><br>
+                
+                <h5 class="plumCream">
+                  Ceramide Collagen Plump Cream
+                </h5><br>
+                <button type="button" class="btn btn-success">$17 | ADD TO CART</button>
+            </div>
+            <div class="plum">
+              <img src="./plum cream.webp" height="300px" width="300px" alt="...">
+              <h5 class="liptinth6">
+                Ceramide Collagen Plump Cream
+              </h5><br>
+              <button type="button" class="btn btn-success">$35 | ADD TO CART</button>
+            </div>
+            <div class="sheetmask">
+              <img src="./toner pads.webp" alt="..." height="300px" width="300px">
+              <h5 class="mask">
+                Vitamin C Toner Pads
+              </h5><br>
+              <button type="button" class="btn btn-success">$28 | ADD TO CART</button>
+            </div>
+        </div><br><br>
+          <center><div class="innioffers"><b>INNISFREE OFFERS</b></div></center><br>
+          <div id="offers">
+            
+            <div class="offerONE">
+              <img src="./offerONE.webp" alt="" height="500">
+              <p class="ONE"><b>FREE MINI BEST SELLERS</b></p>
+              <p class="ONEnormal">Get Green Tea Serum + Daily UV Defense Sunscreen minis with orders $65+. <br>
+                 We’ll add on cozy socks + more deluxe minis $80+ *</p>
+              <button type="button" class="btn btn-success">SHOP NOW</button>
+              
+            </div>
+            <div class="offerTWO">
+              <img src="./offerTWO.webp" alt="" height="500">
+              <p class="TWO"><b><i>BAG</i> YOUR FREE GIFT</b></p>
+              <p class="TWOnormal">Score an eco-tote with $100+ orders*</p><br>
+              <button type="button" class="btn btn-success">SHOP NOW</button>
+
+            </div>
+          </div><br><br>
+          <h1>LINK TO OUR LOCATION</h1>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28801652.353142362!2d90.94528330775123!3d28.212577255469405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b44378051f1c5%3A0x8629f8cb5dae0752!2sinnisfree!5e0!3m2!1sen!2snp!4v1740130538612!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <br>
+          <div id="ending">
+            <div class="customer-service">
+              <br>
+              <h6 class="customer-s"><b>CUSTOMER SERVIVE</b></h3>
+                <p>FAQS</p>
+                <p>Return Policy</p>
+                <p>Shipping Information</p>
+                <p>Store Locator</p>
+                <p>Contact us</p>
+
+            </div>
+           
+            <div class="Welcome">
+              <br>
+              <h6><B> WELCOME TO INNISFREE</B></h6>
+              <p>Natural Benefits from Jeju Island</p>
+              <p>Our Ingredient Standard</p>
+              <p>Inniversity</p>
+            </div>
+            <div class="Rewards">
+              <br>
+              <h6><B>REWARDS</B></h6>
+              <p>inni-Friend Rewards</p>
+              <p>Limited Time:Give $10, Get 10% OFF</p>
+              <p>Membership Terms</p>
+            </div>
+          </div>
+
+    </body>
+</html>
+
+
+
